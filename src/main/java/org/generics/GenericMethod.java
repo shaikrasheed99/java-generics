@@ -1,4 +1,4 @@
-package org.example;
+package org.generics;
 
 public class GenericMethod {
     public static void main(String[] args) {

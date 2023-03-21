@@ -1,4 +1,4 @@
-package org.example;
+package org.generics;
 
 public class GenericClass<T> {
     private final T item;
