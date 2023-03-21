@@ -78,17 +78,17 @@ public class GenericClass<T> {
 ```
 
 ## Advantages:
-* Type safety
+* **Type safety**
   * data types are corrected at compile time rather than runtime which makes code more robust and reliable.
-* Code re-usability
+* **Code re-usability**
   * write classes and methods that can work with multiple types of data which can help reduce the amount of code you need to write.
-* Performance
+* **Performance**
   * improve performance by reducing the need for type casts and avoiding the overhead of runtime type checking.
 
 ## Disadvantages:
-* Type erasure
+* **Type erasure**
   * it is a key feature where it erases the generic code at runtime which can limit the usefulness of generics in certain situations.
-* Limited support for primitive types
+* **Limited support for primitive types**
   * Generics in Java do not support primitive types, such as int or double, directly. Instead, you must use their corresponding wrapper classes, such as Integer or Double. This can be less efficient than working with primitive types directly.
-* Complexity
+* **Complexity**
   * can add complexity to code which uses complex type hierarchies and wildcard types.
